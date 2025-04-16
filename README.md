@@ -1,4 +1,4 @@
-# Claude-QKOV-Weights
+# Claude-QKOV-Trace
 
 [![License: PolyForm](https://img.shields.io/badge/License-PolyForm-yellow.svg)](https://opensource.org/licenses/PolyForm)
 [![Python: 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
@@ -23,7 +23,7 @@ This repository contains the core interpretability infrastructure for analyzing,
 
 ## Core Architecture
 
-Claude-QKOV-Weights provides a transparent scaffold for rendering Claude's internal reasoning pathways, addressing the concerning findings from our Chain-of-Thought faithfulness studies (April 2025) that reveal **significant gaps between Claude's verbalized reasoning and its internal attribution patterns**. This repository bridges that gap with instrumentation specifically designed to:
+Claude-QKOV-Trace provides a transparent scaffold for rendering Claude's internal reasoning pathways, addressing the concerning findings from our Chain-of-Thought faithfulness studies (April 2025) that reveal **significant gaps between Claude's verbalized reasoning and its internal attribution patterns**. This repository bridges that gap with instrumentation specifically designed to:
 
 1. **Map representational drift in CoT structures** (detecting when Claude says X but "thinks" Y)
 2. **Track polysemantic feature entanglement** across scratchpad boundaries
@@ -171,8 +171,8 @@ Upcoming releases will include:
 Clone this repository and set your Claude API key as an environment variable:
 
 ```bash
-git clone https://github.com/anthropic-internal/claude-qkov-weights.git
-cd claude-qkov-weights
+git clone https://github.com/anthropic-internal/Claude-QKOV-Trace.git
+cd Claude-QKOV-Trace
 export CLAUDE_API_KEY="your_key_here"
 
 # Run basic attribution tracer on sample prompt
