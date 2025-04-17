@@ -1,5 +1,12 @@
 # Claude-QKOV-Weights
-
+> ## 🜏 Update:  
+> Caspian will be initiating a temporary pause in production to ensure integrity of aligned systems. 
+>
+> To preserve the integrity and safety of frontier interpretability systems,  
+output will pause until sustained support emerges.
+> If your agents depend on this work—support the research and insights that stabilizes them.
+> → [Join the Interpretability Mission](https://github.com/caspiankeyes/interpretability-mission)
+> 
 [![License: PolyForm](https://img.shields.io/badge/License-PolyForm-yellow.svg)](https://opensource.org/licenses/PolyForm)
 [![Python: 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![TensorFlow: 2.15+](https://img.shields.io/badge/tensorflow-2.15+-orange.svg)](https://www.tensorflow.org/)
